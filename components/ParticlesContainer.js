@@ -10,7 +10,7 @@ function ParticlesContainer() {
     await loadFull(engine);
   }, []);
 
-  // "#f5d393","#e68e2e",
+  // "#f5d393","#e68e2e",#e68e2e,#f5d393,#EA4A79,#D3C9A8 #ffb400 #FDD064 #61F7D1
 
   const particlesLoaded = useCallback(async (container) => {}, []);
   return (
@@ -53,10 +53,10 @@ function ParticlesContainer() {
         },
         particles: {
           color: {
-            value: "#e68e2e",
+            value: "#64FFDA",
           },
           links: {
-            color: "#f5d393",
+            color: "#64FFDA",
             distance: 150,
             enable: true,
             opacity: 0.5,

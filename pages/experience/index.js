@@ -7,9 +7,11 @@ import { motion } from "framer-motion";
 import { SectionWrapper } from "../../components/hoc";
 
 import "react-vertical-timeline-component/style.min.css";
-import { experiences } from "../../constants";
+
 import { styles } from "../styles";
 import { textVariant } from "../../components/utils/motion";
+import { experiences } from "../../components/utils/constants";
+import { StarsCanvas } from "../../components/canvas";
 
 const ExperienceCard = ({ experience }) => {
   return (
@@ -57,7 +59,8 @@ const ExperienceCard = ({ experience }) => {
 
 const Experience = () => {
   return (
-    <>
+    <div className="pb-20 pt-16">
+      <StarsCanvas />
       <motion.div variants={textVariant()}>
         <p className={`${styles.sectionSubText} text-center`}>
           What I have done so far
@@ -77,7 +80,7 @@ const Experience = () => {
           ))}
         </VerticalTimeline>
       </div>
-    </>
+    </div>
   );
 };
 

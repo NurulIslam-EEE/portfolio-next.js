@@ -23,10 +23,15 @@ module.exports = {
     extend: {
       colors: {
         regular: "#050816",
+        regularDark: "rgb(10 25 47)",
+        regularText: "rgb(17 34 64)",
         accent: "#F13024",
         primary: "#050816",
         secondary: "#aaa6c3",
-
+        dark: "#1b1b1b",
+        light: "#f5f5f5",
+        primary2: "rgb(240,86,199)",
+        primaryDark: "rgb(80,230,217)",
         tertiary: "#151030",
         "black-100": "#100d25",
         "black-200": "#090325",

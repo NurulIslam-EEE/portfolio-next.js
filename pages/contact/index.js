@@ -65,7 +65,7 @@ const Contact = () => {
   };
   // x bg-black-100 p-8 rounded-2xl
   return (
-    <div>
+    <div className="pb-20 pt-10">
       <StarsCanvas />
       <div
         className={`mx-auto max-w-7xl xl:mt-12 flex xl:flex-row flex-col-reverse gap-10`}
@@ -118,7 +118,7 @@ const Contact = () => {
 
             <button
               type="submit"
-              className="bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary"
+              className="bg-tertiary py-3 px-8 rounded-xl outline-none w-full text-white font-bold shadow-md shadow-primary"
             >
               {loading ? "Sending..." : "Send"}
             </button>
